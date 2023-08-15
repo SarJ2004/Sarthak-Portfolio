@@ -1,0 +1,112 @@
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -0.05em;
+    background-color: var(--clr-rose);
+    color: var(--clr-light);
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    /* #e11d48 - rose*/
+    /* #4f46e5 - indigo */
+    box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5), 0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px var(--clr-rose);
+    /* the parameters of box shadow are: h-offset, v-offset blur and spread, and color */
+    transition: all 0.3s;
+
+
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25), 0 10px 10px rgba(225, 29, 72, 0.2), 0 0 120px -10px var(--clr-rose);
+}
+
+.btn:active {
+    scale: 0.95;
+}
+
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    /* border: 1px solid red; */
+}
+
+.section {
+    margin-top: 5rem;
+}
+
+/* everything we put outside the media queries will be for screens smaller than 475px */
+/* xs */
+@media (min-width: 475px) {
+    .container {
+        max-width: 475px;
+    }
+}
+
+/* styles under this will be applied after the screen reaches a min width of 475px */
+
+/* sm */
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .section {
+        margin-top: 10rem;
+    }
+
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
+
+
+/* @media (min-width: 475px) {}
+
+/* ||MEDIA QUERIES */
+/* styles under this will be applied after the screen reaches a min width of 475px */
+
+/* @media (min-width: 475px) {}
+
+@media (min-width: 640px) {}
+
+
+@media (min-width: 768px) {}
+
+
+@media (min-width: 1024px) {}
+
+
+@media (min-width: 1280px) {}
+
+
+@media (min-width: 1536px) {} */

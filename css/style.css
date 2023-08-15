@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=Tilt+Prism&display=swap');
+
+/* colors */
+:root {
+    --clr-dark: #020617;
+    --clr-light: #f1f5f9;
+    --clr-slate400: #94a3b8;
+    --clr-slate600: #475569;
+    --clr-slate800: #1e293b;
+    --clr-rose: #e11d48;
+    --clr-indigo: #4f46e5;
+}
+
+/* sizes */
+
+:root {
+    --size-xxs: 0.5rem;
+    --size-xs: .75rem;
+    --size-sm: .875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+}
+
+* {
+    margin: 0;
+    line-height: calc(1em+0.5rem);
+    /* 1em is taking the line height of the element and then adding 8px to it */
+    /* rem is usually the root size of the html element which is generally the root element */
+    /* em is the size of parent element */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    /* these all are inline elements but we never use them inline */
+    max-width: 100%;
+    user-select: none;
+}
+
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+    /* button inherits the color of its parent */
+}
+
+a {
+    color: var(--clr-rose);
+}
+
+strong {
+    color: var(--clr-indigo);
+}

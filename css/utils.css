@@ -39,6 +39,14 @@
     margin-top: 5rem;
 }
 
+.bounce {
+    animation: bounce;
+}
+
+@keyframes bounce {
+    0% {}
+}
+
 /* everything we put outside the media queries will be for screens smaller than 475px */
 /* xs */
 @media (min-width: 475px) {

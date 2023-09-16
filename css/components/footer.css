@@ -1,0 +1,12 @@
+.footer__title {
+    text-align: center;
+    color: var(--clr-slate400);
+    font-weight: 400;
+    font-size: var(--size-sm);
+    user-select: none;
+    letter-spacing: 0.2rem;
+}
+
+footer h3 span {
+    color: var(--clr-rose);
+}

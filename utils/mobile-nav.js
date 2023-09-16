@@ -12,6 +12,7 @@ const mobNav = () => {
     document.body.style.overflowY = "hidden";
     if (!isNavOpen) {
       mobileNav.style.display = "none";
+      document.body.style.overflowY = "auto";
     }
   });
 

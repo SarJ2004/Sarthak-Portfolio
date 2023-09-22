@@ -5,8 +5,11 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     /* padding-right: 4rem; */
-    position: relative;
+    position: sticky;
+    transition: all 200ms linear;
     z-index: 9999;
+
+
 }
 
 .header__menu {
@@ -24,7 +27,7 @@
 
 /* ||MEDIA QUERIES */
 /* xs */
-/* @media (min-width: 475px) {} */
+@media (min-width: 475px) {}
 
 /* styles under this will be applied after the screen reaches a min width of 475px */
 
@@ -33,6 +36,8 @@
 
 /* md */
 @media (min-width: 768px) {
+
+
 
     /* since we want the navbar to be shown after reaching a min-width of 768ox, we need to put everything except the header class in this mq  */
     .header__menu {
@@ -83,6 +88,13 @@
 /* lg */
 @media (min-width: 1024px) {
 
+    .header {
+        margin: 0;
+
+        width: 100%;
+        top: 0;
+        background-color: var(--clr-dark);
+    }
 
     .header__link {
         font-size: var(--size-sm);

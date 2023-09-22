@@ -1,7 +1,12 @@
+.featured {
+    scroll-margin-top: 100px;
+}
+
 .featured__title {
     font-size: var(--size-2xl);
     color: var(--clr-light);
     text-transform: uppercase;
+
 }
 
 

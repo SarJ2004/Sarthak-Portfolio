@@ -2,6 +2,7 @@
     display: flex;
     gap: 1rem;
     flex-direction: column;
+    scroll-margin-top: 100px;
 }
 
 .about__img {

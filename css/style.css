@@ -2,7 +2,7 @@
 
 /* colors */
 :root {
-    --clr-dark: #020617;
+    --clr-dark: rgb(2, 6, 23);
     --clr-light: #f1f5f9;
     --clr-slate400: #94a3b8;
     --clr-slate600: #475569;

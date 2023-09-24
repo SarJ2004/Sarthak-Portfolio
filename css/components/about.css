@@ -6,7 +6,7 @@
 }
 
 .about__img {
-    border-radius: 5px;
+    border-radius: 20px;
     border: 4px solid var(--clr-slate600);
     transform: skew(1deg, 3deg);
 }

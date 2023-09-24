@@ -7,7 +7,7 @@ const navBar = () => {
       document.body.scrollTop > 90 ||
       document.documentElement.scrollTop > 90
     ) {
-      headerNav.style.boxShadow = "0 3px 5px var(--clr-light)";
+      headerNav.style.boxShadow = "0 3px 5px var(--clr-rose)";
       headerNav.style.backgroundColor = "var(--clr-dark)";
     } else {
       headerNav.style.backgroundColor = "rgba(225, 29, 72, 0)";
@@ -23,8 +23,8 @@ const navBar = () => {
     }
   };
   mybutton.addEventListener("click", () => {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
   });
 };
 // headerNav.style.position = "sticky";

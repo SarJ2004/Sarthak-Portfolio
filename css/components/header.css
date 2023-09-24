@@ -4,7 +4,7 @@
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    /* padding-right: 4rem; */
+
     position: sticky;
     transition: all 200ms linear;
     z-index: 9999;
@@ -41,6 +41,7 @@
 
     /* since we want the navbar to be shown after reaching a min-width of 768ox, we need to put everything except the header class in this mq  */
     .header__menu {
+
         display: flex;
         align-items: center;
         list-style: none;
@@ -48,6 +49,7 @@
         padding: 0;
         /* removing the font padding due to the unordered list */
         gap: 2em;
+
     }
 
     .header__link {

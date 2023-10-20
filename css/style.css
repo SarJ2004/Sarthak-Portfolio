@@ -56,12 +56,12 @@ body {
     font-family: 'Prompt', sans-serif;
     color: var(--clr-light);
     background-color: var(--clr-dark);
-    background-image: url('../sarge.png');
+    /* background-image: url('../sarge.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-blend-mode: color-dodge;
     backdrop-filter: blur(5px);
-    background-position: top;
+    background-position: top; */
 
 }
 
